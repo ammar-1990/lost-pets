@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script defer src="main.js"></script>
+    <title>lost pets</title>
+</head>
+<body>
+    <section class="one ">
+        <div class="img img-one"> <img src="images/cat1.jpeg" alt="cat" > </div>
+        <div class="img img-two">  <img src="images/cat2.jpeg" alt="cat" > </div>
+        <div class="img"> <img src="images/dog1.jpeg" alt="dog"> </div>
+        <div class="img"> <img src="images/dog2.jpeg" alt="dog"> </div>
+
+        <div class="log-in ">
+<div class="user-name">
+    <label for="username">username</label>
+    <input id="username" type="text">
+    <div class="err-div" >no such username</div>
+</div>
+<div class="password">
+    <label for="password">password</label>
+    <input id="password" type="password"> 
+    <div class="err-div" >your password is not correct</div>
+</div>
+
+<button id= "log" class="btn">Log in</button>
+<p>don,t have an account ? <span id="to-sign"> Sign up</span></p>
+        </div>
+
+
+
+        <div class="sign-up disappear">
+<div>
+    <label for="name " >name</label>
+    <input id="name"  type="text"  >
+    <div class="err-div" >this user name already exist</div>
+</div>
+<div>
+    <label for="password-input" >password</label>
+    <input  id="password-input" type="password" >
+    <div  class="err-div">enter a password between 5 and 10 characters </div>
+</div>
+<div>
+    <label for="password-approvement">confirm password</label>
+    <input id="password-approvement" type="password">
+    <div   class="err-div">your password is not identical</div>
+</div>
+<div>
+    <label for="gender">Gender</label>
+    <div> <div>
+        <label for="male">male</label>
+        <input id="male" name="gender" type="radio" value="male" checked></div>
+<div>
+    <label for="female">female</label>
+    <input name="gender" type="radio" value="female" id="female"></div>
+        
+    </div>
+   
+</div>
+<div>
+    <label for="contact-info">contact-info</label>
+    <input  id="contact-info" type="text" >
+    <div  class="err-div">enter a valid e-mail or phone number</div>
+</div>
+<button class="btn" id="signup">signt up</button>
+
+
+<button id="back">back</button>
+        </div>
+       
+    </section>
+
+    <section class="two disable" >
+
+        <header>
+            <p class="user-logo"> <span>hello</span><span>user</span> </p>
+            <div class="right-header">
+                <i class="fa fa-sign-out exit" aria-hidden="true"></i>
+                <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                <i class="fa fa-cog  set-icon " aria-hidden="true"></i>
+            </div>
+            
+        </header>
+       
+            <video loop muted autoplay >
+                <source src="videos/pexels-nando-lee-7603588.mp4" type="video/mp4"> 
+            </video>
+       
+            <div class="the-filter hide-filter"> <p class="f-p">Filter the results</p>
+           
+                <div class="filter">
+                    <div class="filter-category">
+                        <label for="f-category">By Category</label>
+                        <input type="text"  id="f-category" data-filter="category">
+                    </div>
+                    <div class="filter-type">
+                        <label for="f-type">By Type</label>
+                        <input type="text"  id="f-type" data-filter="type">
+                    </div>
+                    <div class="filter-color"> 
+                        <label for="f-color">By color</label>
+                        <input type="text"  id="f-color" data-filter="color">
+                    </div>
+                    <div class="filter-state">
+                       <span>By State</span>  
+                       <div class="f-state">
+                        <div class="f-lost"><label for="f-lost">lost</label> <input type="radio" name="state" value="lost" id="f-lost" checked></div>
+                         <div class="f-found"><label for="f-found">found</label> <input type="radio" name="state" value="found" id="f-found"></div>
+                        </div>
+                    </div>
+                </div>
+            <span id="reset">reset</span></div>
+        <div class="wraper">
+         
+           
+            <span class="arrows rightArr">&#187;</span>
+            <span class="arrows leftArr">&#171;</span>
+            <div class="slider">
+               
+             
+           
+            </div>
+            
+         
+        
+        </div>
+
+        <div class="options-bar bar-hide">
+            <div class="settings">
+                <div class="show-animals">show success story</div>
+                <div class="register-animal"> register an animal</div>
+                <div class="my-messages">my messages  <span id="msgs-number"></span></div>
+                
+            </div>
+            <div class="messages">
+             
+                <h1>my messages</h1>
+                
+                <div class="messages-wraper">
+                   
+                
+                
+                </div>
+                <span class="back">back</span>
+                
+                
+            </div>
+
+        </div>
+
+
+
+           <div class="lay disable ">
+            <div class="anim-form disable">
+                <div>
+                    <label for="anim-category">Animal Category</label>
+                    <input type="text"  id="anim-category">
+                    <div class="err-div" >enter valid input</div>
+                </div>
+                <div>
+                    <label for="anim-type">Animal Type</label>
+                    <input type="text"  id="anim-type">
+                    <div class="err-div" >enter valid input</div>
+                </div>
+                <div>
+                    <label for="anim-color">Animal Color</label>
+                    <input type="text"  id="anim-color">
+                    <div class="err-div" >enter valid input</div>
+                </div>
+                <div>
+                    <label for="anim-photo">Animal Photo</label>
+                    <input type="text"  id="anim-photo">
+                    <div class="err-div" >enter valid input</div>
+                </div>
+                <div>
+                    <p>Animal state</p>
+                    <div class="state">
+                        <div>
+                            <label for="anime-lost">lost</label>
+                        <input type="radio" name ="state" id="anime-lost" value="lost" checked >
+                    </div>
+                        <div>
+                            <label for="anime-found">found</label>
+                            <input type="radio" name="state" id="anime-found" value="found">
+                        </div>
+                    </div>
+                </div>
+
+                <div><button id="register">register </button>
+                    <button id="cancel"> cancel</button>
+                </div>
+            </div>
+
+            <div class="congrats disable ">
+                <h1 id="foundH">congratulations</h1>
+                <img id="foundImg" src="/images/dog1.jpeg" alt="">
+                <div class="content">
+                    <p id="foundP">congratulations!! that youve found your animal back is a great thing , now we will record it as a new good achievment of our site</p>
+                    <div><button class="btn btn-found">ok</button></div>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="contact disable">
+                <div class="contact-content"><p> registered by<br><span class="reciever-name"> </span> <br> contact info <br> <span id="reciever-contact"> </span></p>
+                    <p>after contacting with <span  class="reciever-name"></span> we suggest to track the proccess throw our site , so that a message would be sent to him in order to regeister the whole progress</p></div>
+                
+<div> <button class="dont-track">don,t track</button>
+    <button class="track">track</button></div>
+               
+            </div>
+
+            <div class="success-storys disable">
+                <span id="close-btn">X</span>
+<div class="success-wraper">
+
+</div>
+</div>
+
+
+            </div>
+           </div>
+           
+
+          
+    </section>
+    
+    <div class="lay-blur disable ">
+        <div>
+        <p>are you sure you want to log out?</p>
+        <div><button class="log-out">log out</button>
+            <button class="cancel">cancel</button></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
