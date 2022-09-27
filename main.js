@@ -924,7 +924,7 @@ let size=card[0].clientWidth;
 
 
 
-//sliding bar
+//sliding bar and arrows
 leftArr.addEventListener('click', ()=> {
    
        
