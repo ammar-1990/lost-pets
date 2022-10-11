@@ -1250,7 +1250,7 @@ justify-content: space-between;
     right:-1700px ;
     top: -225px;
     font-size: 7rem;
-    z-index: 3;
+    z-index: 100 !important;
     color: rgba(255, 255, 255, 0);
     background-image: url(/images/rainbow.webp);
     background-repeat: repeat-x;
