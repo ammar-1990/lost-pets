@@ -1,4 +1,4 @@
-# lost-pets is a project throw wich we can register and share lost pets in ordere to find them or their owners
+# lost-pets is a project throw wich we can register and share lost pets in order to find them or their owners
 
 this project was designed with HTML,CSS,and vanilla JavaScript with no server side techs.
 
