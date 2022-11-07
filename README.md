@@ -15,12 +15,18 @@ I,ve used  CSS properly  to give the impression of transforming from one page to
 
 Table of contents :
 -after logging in you will see three icons on the top right of the screen (exit , search , and settings )
--opening the settings menu shows a side bar wich contains (success stories , register an animal , my messages )
-      -success stories shows the animals that was deliverd to their owners using this site 
-      -register an animal opens a form of animal,s various information ,at the image input be sure to write one of these(cat1 , cat2 , dog1 ,dog2 ),when you end the form         ,the animal would be registerd and shown in the main page .
-      -my messages shows different requests form other accounts who want to get in touch with you , because the are either suspecting that your registerd animal is their          or because they might have information about the animal in case you registerd it as a lost one.
--search icon opens a mini side bar on the left throw wich you can filter the shown results 
--exit icons takes you to the log in page
+
+1-opening the settings menu shows a side bar wich contains (success stories , register an animal , my messages )
+
+     a -success stories shows the animals that was deliverd to their owners using this site 
+      
+     b-register an animal opens a form of animal,s various information ,at the image input be sure to write one of these(cat1 , cat2 , dog1 ,dog2 ),when you end the form         ,the animal would be registerd and shown in the main page .
+      
+     c -my messages shows different requests form other accounts who want to get in touch with you , because the are either suspecting that your registerd animal is their          or because they might have information about the animal in case you registerd it as a lost one.
+      
+2-search icon opens a mini side bar on the left throw wich you can filter the shown results 
+
+3-exit icons takes you to the log in page
  
 ----------------------------------------------
 
